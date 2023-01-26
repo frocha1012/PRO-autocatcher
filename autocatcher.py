@@ -77,7 +77,7 @@ def apanhar():
         
         printString = tess.image_to_string(pyautogui.screenshot(region=(AreaX,AreaY,Area2X - AreaX + 10,Area2Y - AreaY + 5)))
         if A not in printString and C not in printString:
-            print("ES MEU QUE TE FODES")
+            print("APANHADO")
             apanhar = False
     andar()
 
